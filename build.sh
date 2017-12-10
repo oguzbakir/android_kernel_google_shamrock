@@ -19,7 +19,7 @@ echo -e "\e[35mApplying Build Settings\e[0m"
 export ARCH=arm
 export CCOMPILE=$CROSS_COMPILE
 export CROSS_COMPILE=arm-eabi-
-export PATH=toolchains/arm-eabi-4.7/bin:$PATH
+export PATH=toolchains/arm-linux-androideabi-4.9/bin:$PATH
 
 #CONFIGS
 export SLEEP=1
